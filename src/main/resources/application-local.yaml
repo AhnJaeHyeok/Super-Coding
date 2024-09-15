@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  logging:
+#    리소스 하위로 가는 classpath 클론이다
+    config: classpath:logback-spring-local.xml
+    level:
+      org:
+        hibernate:
+          SQL: DEBUG
